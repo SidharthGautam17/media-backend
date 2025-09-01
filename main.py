@@ -6,7 +6,9 @@ import os, sys, json, importlib, pkgutil
 from datetime import datetime
 from shutil import copyfile
 from openai import OpenAI
-from backend.app.main import app
+from backend.app import main
+
+app = main.app
 
 # Optional: Add a root test endpoint
 @app.get("/")
