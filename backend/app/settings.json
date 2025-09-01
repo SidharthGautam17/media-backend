@@ -1,0 +1,12 @@
+{
+  "openai_api_key": "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",
+  "model": "gpt-4.1",
+  "theme": "default",
+  "features": {
+    "qa_automation": true,
+    "trafficking": true,
+    "ai_upgrades": true,
+    "patches_review": true,
+    "rollback": true
+  }
+}
